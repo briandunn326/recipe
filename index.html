@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recipe Page</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+		<style>
+			body{
+				background-color: #EEE8DF;
+				margin-left: 8em;
+				margin-right: 8em;
+				font-family: 'Raleway', sans-serif;
+			}
+			.toplayer{
+				background-color: #F1E0C5 ;
+				border: solid;
+				border-width: 5px;
+				border-color: #FAF9F6;
+			}
+			.headerimg{
+				display: flex;
+				width: 100%;
+				background-image: url(img/breadsticks.jpg);
+				background-position: center;
+				background-image: no-repeat;
+				background-size: cover;
+				filter: blur(3px);
+				padding-top: 200px;
+				padding-bottom: 200px;
+				background-attachment: fixed;
+				justify-content: safe center;
+			}
+			.title{
+				display: flex;
+				font-size: 35px;
+				top: 50%;
+				bottom: 50%;
+				transform: translate( 0%, -600%);
+				z-index: 2;
+				justify-content: safe center;
+				color: #FAF9F6;
+			}
+			.rowtwo{
+				display: flex;
+				justify-content: space-evenly;
+				transform: translate(-7.3%, 0%);
+			}
+			img.rowtwo{
+				width: 25%;
+				height: 25%;
+			}
+			.rowthree{
+				display: flex;
+				justify-content: space-evenly;
+				transform: translate(-.7%, 0%);
+			}
+			img.rowthree{
+				display: flex;
+				width: 25%;
+				height: 25%;
+				justify-content: space-evenly;
+			}
+			.rowfour{
+				text-align: center;
+				padding-left: 300px;padding-right: 300px;
+			}
+			.rowfive {
+				display: flex;
+				justify-content: safe center;
+			}
+			.rowsix {
+				display:  flex;
+				justify-content: space-evenly;
+				transform: translate(1%, 0%);
+			}
+			.rowdivone{
+				padding: 50px;
+			}
+			.rowdivtwo{
+				padding: 50px;
+			}
+			.enddiv{
+				padding: 25px;
+			}
+			.enddivtwo{
+				padding: 25px;
+			}
+			.button{
+				padding-top: 10px;padding-bottom: 10px;
+				padding-left: 20px;padding-right: 20px;
+				background-color: #EEE8DF;
+			}
+			.button:hover{
+				background-color: #656061;
+			}
+			.flourwater{
+				width: 25%;
+				height: 25%;
+			}
+			.knead{
+				width: 25%;
+				height: 25%;
+			}
+			#finished{
+				height: 25%;
+			}
+			.rowseven{
+				text-align: center;
+				padding-left: 300px;padding-right: 300px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<section class=toplayer>
+			<div class="headerimg"></div>
+			<h1 class="title">Breadsticks Recipe</h1>
+			<section class="rowtwo">
+				<img src=img/flourwater.jpg class="flourwater">
+				<ul>
+					<h1>Ingredients Needed:</h1>
+					<li ><h3>For the dough:</h3></li>
+					<li>8 ounces bread flour (1 cup)</li>
+					<li>1.5 teaspoons granulated sugar</li>
+					<li>1.5 teaspoons kosher salt</li>
+					<li>1/4 teaspoons active dry yeast</li>
+					<li>5/8 cups ice water</li>
+					<li>1.5 teaspoons vegetable/mixed oil</li>
+					<li ><h3>For the garlic butter:</h3></li>
+					<li>Melted butter</li>
+					<li>Garlic powder to taste</li>
+				</ul>
+			</section>
+			</br>
+			<div class="rowdivone"></div>
+			<section class="rowthree">
+				<img src= img/finished.jpg class="rowthree" id="finished">
+				<ol>
+					<h1>Cooking Instructions</h1>
+					<li>Make a dome in the flour and pour water and all seasoning and oil into the flour</li>
+					<li>Mix the flour together with the contents until it starts to form dough</li>
+					<li>Knead dough until it is smooth and then place in an oiled bowl overnight</li>
+					<li>Deflate the dough and slice dough into breadstick-sized portions</li>
+					<li>Place breadsticks in an oven at 450°F until they have browned adequately</li>
+					<li>Take the breadsticks out after around 10 minutes and allow the breadsticks to cool down</li>
+					<li>Brush with garlic butter and sprinkle parmesan on top</li>
+				</ol>
+			</section>
+			<div class="rowdivtwo"></div>
+			<section class="rowfour">
+				<h1 class="rowfour">Backstory</h1>
+				<p>I am chose this recipe to share because it is what I am most familiar with since I used to work at an Italian restaurant. It is a time-consuming recipe, but the dough it produces has no contender that I have found other than where I used to work or an actual pizzeria in New York. The dough can be used for multiple things as a base, such as a pizza (what it is actually meant for), breadsticks, donuts, or whatever you can think of that you need good dough for.</p>
+			</section>
+			<div class="rowdivtwo"></div>
+			<section class="rowseven">
+				<h1>Allergins</h1>
+				<p>Gluten is used in this recipe for the dough, if you have any sensitivity to garlic I would skip the garlic butter part. Skip the parmesan if you do not like parmesan cheese or have problems with dairy. The dough is rather sugary, diabetics beware.</p>
+			</section>
+			<div class="rowdivtwo"></div>
+			<section class="rowfive">
+				<h1 class="rowfive">Links</h1>
+			</section>
+			<div class="enddiv">
+			</div>
+			<section class="rowsix">
+				<div class="button">
+					<a class="rowsix" href="index.html">Home</a>
+				</div>
+				<div class="button">
+					<a class="rowsix" href="gallery.html">Gallery</a>
+				</div>
+				<div class="button">
+				<a class="rowsix" href="aboutme.html">About Me</a>
+				</div>
+			</section>
+			<div class="rowdivtwo"></div>
+		</section>
+	</body>
+</html>
